@@ -1,0 +1,25 @@
+{
+  "name": "catholic",
+  "version": "1.0.0",
+  "description": "for catholic and chirstian ",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lehoangvi123/nodejs.git"
+  },
+  "author": "le hoang vi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
