@@ -1,0 +1,55 @@
+@import 'variables';
+
+h1{ 
+    color: $red-color; 
+}
+
+h2{ 
+    color: $green-color;
+} 
+
+/* General form styling */
+form {
+    max-width: 400px; /* Limit form width */
+    margin: auto; /* Center form */
+    background: #f8f9fa; /* Light gray background */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Style for inputs */
+.form-control {
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    transition: border-color 0.3s ease-in-out;
+}
+
+/* Highlight input when focused */
+.form-control:focus {
+    border-color: #007bff; /* Bootstrap primary color */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Button styles */
+.btn-primary {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+.btn-primary:hover {
+    background: #0056b3;
+}
+
+/* Checkbox styling */
+.form-check-label {
+    font-size: 14px;
+}
+
+.form-check-input {
+    margin-right: 5px;
+}
