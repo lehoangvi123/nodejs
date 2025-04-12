@@ -10,7 +10,7 @@ function route(app) {
 // })  
 
 app.use('/news', newsRouter);  // Register newsRouter middleware at '/news' path.  // Middleware function is a function that runs before the route handler function. It can be used to validate input, log requests, or perform other operations.  // app.use() is a middleware function that applies to all routes defined after it. It does not stop the execution of the route handler function.  // app.use() is used to mount middleware functions at specific paths.
-app.use('/', siteRouter);  
+app.use('/', siteRouter);   
 
 
 app.get('/about', (req, res) => {  
